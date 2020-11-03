@@ -59,12 +59,12 @@ flex-direction 属性决定主轴的方向（容器中项目的排列方向）�
 
 它可能取 4 个值：
 
-|         值         |            描述            |                            效果                            |
-| :----------------: | :------------------------: | :--------------------------------------------------------: |
-|      **row**       | 主轴为水平方向，起点在左端 |      <img src="/assets/row.png" style="zoom:67%;" />       |
-|  **row-reverse**   | 主轴为水平方向，起点在右端 |  <img src="/assets/row-reverse.png" style="zoom:67%;" />   |
-|     **column**     | 主轴为垂直方向，起点在上沿 |     <img src="/assets/column.png" style="zoom:67%;" />     |
-| **column-reverse** | 主轴为垂直方向，起点在下沿 | <img src="/assets/column-reverse.png" style="zoom:67%;" /> |
+|         值         |            描述            |              效果               |
+| :----------------: | :------------------------: | :-----------------------------: |
+|      **row**       | 主轴为水平方向，起点在左端 |      ![](./assets/row.png)      |
+|  **row-reverse**   | 主轴为水平方向，起点在右端 |  ![](./assets/row-reverse.png)  |
+|     **column**     | 主轴为垂直方向，起点在上沿 |     ![](/assets/column.png)     |
+| **column-reverse** | 主轴为垂直方向，起点在下沿 | ![](/assets/column-reverse.png) |
 
 ### 2、flex-wrap 属性
 
@@ -189,7 +189,7 @@ flex-shrink 属性决定项目的收缩因子，当所处行空间不足时候�
 
 ### 3、flex-basis 属性
 
-flex-basis 属性指定了 flex 项目在主轴方向上的初始大小。如果不设置一般会读取 width;
+flex-basis 属性指定了 flex 项目在主轴方向上的初始大小。如果不设置一般会读取 width。
 
 ### 4、flex 属性
 
@@ -201,9 +201,9 @@ flex 属性是 flex-grow、flex-shrink、flex-basis 3 个属性的简写形式
 }
 ```
 
-> 注：```flex : 1 ``` == ```flex: 1 1 auto``` == ```flex-grow:1; flex-shrink:1; flex-basis:auto;```
+> 注：```flex : 1 ``` === ```flex: 1 1 auto```
 
 ### 5、order 属性
 
-order 属性可以更改元素出现的顺序，即会优先根据设置的order来排序。默认为0;
+order 属性可以更改元素出现的顺序，即会优先根据设置的order来排序，默认为0。
 

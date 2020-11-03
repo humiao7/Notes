@@ -6,12 +6,15 @@
 ### 二、:art: Css
 
 1. [盒子模型.md](/Css/盒子模型.md)
-2. [Flex 弹性盒子模型.md](/Css/Flex%20弹性盒子模型)
+2. [Flex 弹性盒子模型.md](/Css/Flex%20弹性盒子模型.md)
 3. [CSS 自定义图标字体库.md](./Css/CSS%20自定义图标字体库.md)
 
 ### 三、:helicopter: JS
 ### 四、:green_book: Vue
 ### 五、:blue_book: React
+
+1. [Redux 学习.md](/React/Redux%学习.md)
+
 ### 六、:iphone:  微信小程序
 ### 七、:dart: Nodejs
 ### 八、:wrench: 前端自动化
