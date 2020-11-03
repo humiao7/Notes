@@ -6,8 +6,8 @@
 ### 二、:art: Css
 
 1. [盒子模型.md](/Css/盒子模型.md)
-2. [Flex 弹性盒子模型.md](/Css/Flex 弹性盒子模型.md)
-3. [CSS 自定义图标字体库.md](./Css/CSS 自定义图标字体库.md)
+2. [Flex 弹性盒子模型.md](/Css/Flex%20弹性盒子模型)
+3. [CSS 自定义图标字体库.md](./Css/CSS%20自定义图标字体库.md)
 
 ### 三、:helicopter: JS
 ### 四、:green_book: Vue
@@ -17,6 +17,6 @@
 ### 八、:wrench: 前端自动化
 ### 九、:cloud: 前端解决方案
 
-1. [Leaflet 地图开发.md](/前端解决方案/Leaflet 地图开发.md)
-2. [Echarts 数据可视化.md](/前端解决方案/Echarts 数据可视化.md)
+1. [Leaflet 地图开发.md](/前端解决方案/Leaflet%20地图开发.md)
+2. [Echarts 数据可视化.md](/前端解决方案/Echarts%20数据可视化.md)
 
