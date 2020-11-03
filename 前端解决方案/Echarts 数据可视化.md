@@ -1,8 +1,6 @@
 # Echarts 数据可视化
 
-​		ECharts，是一个 JavaScript 的开源可视化库，可以流畅的运行在 PC 和移动设备上，提供直观，交互丰富，可高度个性化定制的数据可视化图表功能。
-
-
+ECharts，是一个 JavaScript 的开源可视化库，可以流畅的运行在 PC 和移动设备上，提供直观，交互丰富，可高度个性化定制的数据可视化图表功能。
 
 ## 一、引入 Echarts
 
@@ -80,8 +78,6 @@ import 'echarts/lib/component/legend';
 import 'echarts/lib/chart/bar';
 ```
 
-
-
 ## 二、基本 API
 
 项目中通过 script 标签引入 echarts.js 文件，或者在 amd 环境中通过 require('echarts') 可以获取到 echarts 原型对象，echarts 对象拥有以下一些属性和方法：
@@ -93,18 +89,18 @@ import 'echarts/lib/chart/bar';
 - getInstance：获取页面上的 echarts 图表实例
 - registerMap：注册可用地图，必须在包括 geo 组件或者 map 图表类型的时候才能使用
 
-
-
-三、图表配置项
+## 三、图表配置项
 
 一个基本的图表通常由以下几部分组成：**标题、图例、工具栏、坐标轴、边框、提示框、图表内容**等。
 
-<img src="./assets/echartDemo.jpg" alt="echartDemo" style="zoom:70%;" />
+![echartDemo](./assets/echartDemo.jpg) 
 
 **option 配置项**：
 
-- **title**：标题组件，包含主标题和副标题。
-- **legend**：图例组件。
+* **title**：标题组件，包含主标题和副标题。
+
+* **legend**：图例组件。
+
 - **tooltip**：提示框组件
 - **grid**：直角坐标系内绘图网格，单个 grid 内最多可以放置上下两个 X 轴，左右两个 Y 轴。可以在网格上绘制折线图，柱状图，散点图（气泡图）
 - **toolbox**：工具栏。内置有导出图片，数据视图，动态类型切换，数据区域缩放，重置五个工具。
