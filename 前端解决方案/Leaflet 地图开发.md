@@ -59,7 +59,7 @@ Leaflet 是一个开源的地图 JavaScript 库，提供了地图开发所需的
    ![leafletDemo](./assets/leafletDemo.png)
 
 
-### 地图属性
+## 四、地图属性
 
 以下为 Leaflet Map 一些基本的可配置项介绍 ([查看 Leaflet 官网完整配置信息](https://leafletjs.com/reference-1.7.1.html))，这些配置可在地图初始化时进行设置，也可以在地图初始化完成后调用相应方法进行修改。
 
@@ -86,5 +86,5 @@ Leaflet 是一个开源的地图 JavaScript 库，提供了地图开发所需的
 |        tap         |                           Boolean                           |      true      | 手指双击触屏放大地图                                         |
 |     touchZoom      |                       Boolean\|String                       |      true      | 用两根手指触摸拖动是否可以缩放地图，如果值为`'center'`，默认放大地图中心点位置。 |
 
-### 地图事件
+### 五、地图事件
 

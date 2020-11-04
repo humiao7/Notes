@@ -74,7 +74,7 @@ Redux 为开发者提供了 [Redux DevTools Chrome 插件](https://chrome.google
    ```js
    import { createStore, applyMiddleware, compose } from 'redux';
    const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-   const store = createStore(reducer, initState, 	         composeEnhancers(applyMiddleware(...middleware)));
+   const store = createStore(reducer, initState, composeEnhancers(applyMiddleware(...middleware)));
    ```
 
    以  ```redux-thunk``` 为例

@@ -18,6 +18,9 @@
 ### 六、:iphone:  微信小程序
 ### 七、:dart: Nodejs
 ### 八、:wrench: 前端自动化
+
+1. [PM2 Node 进程管理工具.md](./前端自动化/PM2%20Node%20进程管理工具.md)
+
 ### 九、:cloud: 前端解决方案
 
 1. [Leaflet 地图开发.md](/前端解决方案/Leaflet%20地图开发.md)
